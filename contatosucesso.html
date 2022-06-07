@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email enviado</title>
+</head>
+<body>
+    <h1>Sucesso!</h1>
+    <p></p>
+    <script>
+        let par = document.querySelector("p")
+        let i = 7
+        setInterval(() => {
+            let p = "Obrigado pelo seu contato! Você será redirecionado para a página principal em "+ i + " segundos."
+        par.textContent = p  
+        i--
+        if (i < 0) {
+                window.location.href = "index.html"
+            }
+        }, 1000);
+  
+     
+
+    </script>
+</body>
+</html>
