@@ -6,7 +6,6 @@
 }
 
 .card {
-    float: inline-end;
     min-width: 450px;
     max-width: 33%;
     display: inline-block;
