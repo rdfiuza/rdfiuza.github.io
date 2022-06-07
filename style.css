@@ -1,14 +1,10 @@
-body {
-background-color: #0096F0;
-}
+
 
 .icon {
     width: 20px;
     height: auto;
 }
-#cards {
 
-}
 .card {
     float: inline-end;
     min-width: 450px;
