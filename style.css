@@ -49,3 +49,19 @@ li{
 .item:hover{
   box-shadow: 10px 5px 5px rgb(192, 192, 192);
 }
+#elementoimagem{
+ vertical-align: top;
+  width: 85%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#frente{
+  vertical-align: top;
+   width: 85%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+ 
+ }
