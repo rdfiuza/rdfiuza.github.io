@@ -1,8 +1,18 @@
-
-
+@charset "UTF-8";
+h1{
+  text-align: center;
+}
 .icon {
     width: 20px;
     height: auto;
+}
+ul{
+  text-align: center;
+  list-style: none;
+}
+li{
+
+  display: inline-block;
 }
 
 .card {
@@ -26,4 +36,16 @@
 .video {
   display: contents;
   display: inline-block;
+}
+
+#videos{ 
+  display: inline-block;
+
+  
+}
+.item{
+  padding: 3%;
+}
+.item:hover{
+  box-shadow: 10px 5px 5px rgb(192, 192, 192);
 }
