@@ -38,5 +38,5 @@ function btnClose(){
   let frenteElement = document.getElementById("frente")
   frenteElement.style.visibility = "hidden"
   
-    body.style.backgroundColor = "white"
+    body.style.backgroundColor = "rgb(243, 243, 243)"
 }

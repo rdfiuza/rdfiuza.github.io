@@ -1,8 +1,16 @@
 @charset "UTF-8";
+@font-face {
+  font-family: VCR;
+  src: url(fontes/VCR_OSD_MONO_1.001.ttf);
+}
+body{
+  background-color: rgb(243, 243, 243);
+}
 #frente{
   position: absolute;
 }
 h1{
+  font-family: VCR;
   text-align: center;
 }
 .icon {
