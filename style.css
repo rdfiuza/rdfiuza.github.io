@@ -5,6 +5,7 @@
 }
 body{
   background-color: #F2F2F1;
+  width: 90%;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
@@ -62,6 +63,8 @@ li{
 }
 
 #videos{ 
+  margin-left: auto;
+  margin-right: auto;
   display: inline-block;
 }
 .item{
