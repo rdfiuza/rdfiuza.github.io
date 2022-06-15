@@ -4,11 +4,16 @@
   src: url(fontes/VCR_OSD_MONO_1.001.ttf);
 }
 body{
-  background-color: rgb(243, 243, 243);
-  width: 75%;
+  background-color: #F2F2F1;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
+nav{
+  background-color: #C4CFE8;
+
+}
+
 #frente{
   position: absolute;
 }
@@ -35,12 +40,12 @@ li{
     display: inline-block;
     
     
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 4px 0 #C4CFE8;
     transition: 0.3s;
   }
 
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 #283A52;
   }
   
   .container {
@@ -79,10 +84,18 @@ li{
    margin-right: auto;
  
  }
+iframe{
+  width: 450px;
+  height: 315px;
+}
+textarea{
+  width: 500px;
+  height: 120px;
+}
 .footer{
   position: fixed;
   bottom: 0;
-  width:100%;
+  width: 1400px;
   height:60px;
-  background:rgb(235, 235, 235);
+  background-color:#C4CFE8;
 }
