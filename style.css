@@ -35,7 +35,7 @@ li{
 }
 
 .card {
-    min-width: 450px;
+    min-width: 400px;
     max-width: 33%;
     display: inline-block;
     
@@ -88,16 +88,22 @@ li{
   opacity: 90%;
 }
 iframe{
-  width: 450px;
+  min-width: 400px;
+  max-width: 32%;
   height: 315px;
 }
 textarea{
   width: 500px;
   height: 120px;
 }
+#enviar{
+  border-radius: 8px;
+  color: green;
+}
 .footer{
-  position: fixed;
+  position: bottom;
   bottom: 0;
+  max-width: 100%;
   width: 1400px;
   height:60px;
   background-color:#C4CFE8;
