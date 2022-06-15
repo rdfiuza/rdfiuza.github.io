@@ -108,3 +108,6 @@ textarea{
   height:60px;
   background-color:#C4CFE8;
 }
+.footerindex{
+  position: fixed;
+}
