@@ -114,4 +114,5 @@ textarea{
 }
 .footerindex{
   position: fixed;
+  max-width: 90%;
 }
