@@ -26,14 +26,7 @@ h1{
     width: 20px;
     height: auto;
 }
-ul{
-  text-align: center;
-  list-style: none;
-}
-li{
 
-  display: inline-block;
-}
 
 .card {
     min-width: 400px;
@@ -53,7 +46,7 @@ li{
     border-radius: 8px;
   }
 
-  .container {
+.container {
 
     padding: 2px 16px;
   }
@@ -103,6 +96,22 @@ textarea{
 #enviar{
   border-radius: 8px;
   color: green;
+}
+
+ul{
+  list-style: none;
+  display: inline-flex;
+
+}
+.logotec{
+ max-height: 95px;
+ max-width: 80%;
+ 
+}
+
+}
+.logotec:hover{
+  cursor: pointer;
 }
 .footer{
   position: bottom;
