@@ -22,8 +22,12 @@ h1{
   font-family: VCR;
   text-align: center;
 }
+h1:hover{
+  text-shadow: 1px 1px 2px #000000;
+  transition: text-shadow 0.3s ease-in-out;
+}
 .icon {
-    width: 20px;
+    width: 30px;
     height: auto;
 }
 
@@ -97,16 +101,26 @@ textarea{
   border-radius: 8px;
   color: green;
 }
-
 ul{
   list-style: none;
-  display: inline-flex;
+  display: flex;
+ justify-content: center;
+align-items: center;
+}
+
+#logos{
+min-width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 .logotec{
+
  max-height: 95px;
- max-width: 80%;
- 
+ max-width: calc(13%);
+margin: 0 auto;
+
 }
 
 .logotec:hover{
