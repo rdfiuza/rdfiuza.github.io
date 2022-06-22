@@ -3,6 +3,7 @@
   font-family: VCR;
   src: url(fontes/VCR_OSD_MONO_1.001.ttf);
 }
+
 body{
   background-color: #F2F2F1;
   width: 90%;
@@ -10,6 +11,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
 nav{
   background-color: #C4CFE8;
 
@@ -18,42 +20,42 @@ nav{
 #frente{
   position: absolute;
 }
+
 h1{
   font-family: VCR;
   text-align: center;
 }
+
 h1:hover{
-  text-shadow: 1px 1px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
   transition: text-shadow 0.3s ease-in-out;
 }
+
 .icon {
-    width: 30px;
-    height: auto;
+  width: 30px;
+  height: auto;
 }
 
-
 .card {
-    min-width: 400px;
-    max-width: 33%;
-    display: inline-block;
-    
-    
-    box-shadow: 0 4px 4px 0 #C4CFE8;
-    transition: 0.3s;
+  min-width: 400px;
+  max-width: 33%;
+  display: inline-block;   
+  box-shadow: 0 4px 4px 0 #C4CFE8;
+  transition: 0.3s;
   }
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 #283A52;
-  }
+.card:hover {
+  box-shadow: 0 8px 16px 0 #283A52;
+}
   
-  #fechar {
-    border-radius: 8px;
-  }
+#fechar {
+  border-radius: 8px;
+}
 
 .container {
+  padding: 2px 16px;
+}
 
-    padding: 2px 16px;
-  }
 .video {
   display: contents;
   display: inline-block;
@@ -64,68 +66,76 @@ h1:hover{
   margin-right: auto;
   display: inline-block;
 }
+
 .item{
   padding: 3%;
 }
+
 .item:hover{
   box-shadow: 10px 5px 5px rgb(192, 192, 192);
 }
+
 #elementoimagem{
   width: 85%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
+
 #frente{
-   width: 70%;
-   height: auto;
-   margin-left: auto;
-   margin-right: auto;
- }
+ width: 70%;
+ height: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 #fechar{
   border-radius: 8px;
   color: #C4CFE8;
   opacity: 90%;
 }
+
 iframe{
   min-width: 400px;
   max-width: 32%;
   height: 315px;
 }
+
 textarea{
   max-width: 90%;
   width: 500px;
   height: 120px;
 }
+
 #enviar{
   border-radius: 8px;
   color: green;
 }
+
 ul{
   list-style: none;
   display: flex;
- justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #logos{
-min-width: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-
+  min-width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .logotec{
-
- max-height: 95px;
- max-width: calc(13%);
-margin: 0 auto;
-
+  max-height: 95px;
+  max-width: calc(13%);
+  margin: 0 auto;
 }
 
 .logotec:hover{
   cursor: pointer;
 }
+
 .footer{
   position: bottom;
   bottom: 0;
@@ -134,6 +144,7 @@ margin: 0 auto;
   height:60px;
   background-color:#C4CFE8;
 }
+
 .footerindex{
   position: fixed;
   max-width: 90%;
