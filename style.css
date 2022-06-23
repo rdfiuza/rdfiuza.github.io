@@ -17,6 +17,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
 nav{
   background-color: var(--cor2);
 
@@ -25,21 +26,20 @@ nav{
 #frente{
   position: absolute;
 }
+
 h1{
   font-family: VCR;
   text-align: center;
 }
-.icon {
-    width: 20px;
-    height: auto;
-}
-ul{
-  text-align: center;
-  list-style: none;
-}
-li{
 
-  display: inline-block;
+h1:hover{
+  text-shadow: 1px 1px 1px #000000;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
 }
 
 .card {
