@@ -3,15 +3,22 @@
   font-family: VCR;
   src: url(fontes/VCR_OSD_MONO_1.001.ttf);
 }
+:root{
+  --cor1: #f2f2f1;
+  --cor2: #c4cfe8;
+  --cor3: #7684aa;
+  --cor4: #4e5e7e;
+  --cor5: #283a52;
+}
 body{
-  background-color: #F2F2F1;
+  background-color: var(--cor1);
   width: 90%;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
 nav{
-  background-color: #C4CFE8;
+  background-color: var(--cor2);
 
 }
 
@@ -36,82 +43,88 @@ li{
 }
 
 .card {
-    min-width: 400px;
-    max-width: 33%;
-    display: inline-block;
-    
-    
-    box-shadow: 0 4px 4px 0 #C4CFE8;
-    transition: 0.3s;
-  }
+  min-width: 400px;
+  max-width: 33%;
+  Display: inline-block;
+  box-shadow: 0 4px 4px 0 var(--cor3);
+  transition: 0.3s;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 #283A52;
-  }
+.card:hover {
+  box-shadow: 0 8px 16px 0 var(--cor5);
+}
   
-  #fechar {
-    border-radius: 8px;
-  }
+#fechar {
+  border-radius: 8px;
+}
 
-  .container {
+.container {
+  padding: 2px 16px;
+}
 
-    padding: 2px 16px;
-  }
 .video {
-  display: contents;
-  display: inline-block;
+  display: inline-flex;
 }
 
 #videos{ 
-  margin-left: auto;
-  margin-right: auto;
   display: inline-block;
+  margin-left: 7%;
 }
+
 .item{
   padding: 3%;
 }
+
 .item:hover{
   box-shadow: 10px 5px 5px rgb(192, 192, 192);
 }
+
 #elementoimagem{
   width: 85%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
+
 #frente{
    width: 70%;
    height: auto;
    margin-left: auto;
    margin-right: auto;
- }
+}
+
 #fechar{
   border-radius: 8px;
-  color: #C4CFE8;
+  color: var(--cor2);
   opacity: 90%;
 }
+
 iframe{
   min-width: 400px;
   max-width: 32%;
   height: 315px;
 }
+
 textarea{
   max-width: 90%;
   width: 500px;
   height: 120px;
 }
+
 #enviar{
   border-radius: 8px;
   color: green;
 }
+
 .footer{
   position: bottom;
   bottom: 0;
   max-width: 100%;
   width: 1400px;
   height:60px;
-  background-color:#C4CFE8;
+  background-color:var(--cor2);
 }
+
 .footerindex{
   position: fixed;
   max-width: 90%;
