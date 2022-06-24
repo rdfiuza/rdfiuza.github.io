@@ -137,6 +137,8 @@ input:hover{
 }
 
 #enviar{
+  height: 50px;
+  width: 150px;
   border-radius: 8px;
   color: green;
 }
