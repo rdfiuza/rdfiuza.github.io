@@ -10,14 +10,22 @@
   --cor4: #4e5e7e;
   --cor5: #283a52;
 }
-body{
+/* body{
   background-color: var(--cor1);
-  width: 90%;
-  max-width: 1400px;
+ 
+} */
+main{
+  background-color: var(--cor1);
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: center;
+  min-height: 950px;
+  box-shadow: 0 0 1em var(--cor4);
 }
-
 nav{
   background-color: var(--cor2);
 
@@ -41,6 +49,15 @@ h1:hover{
   width: 30px;
   height: auto;
 }
+
+a{
+color: var(--cor5);
+}
+
+a:hover{
+color: var(--cor4);
+}
+
 
 .card {
   min-width: 400px;
@@ -111,6 +128,14 @@ textarea{
   height: 120px;
 }
 
+textarea:hover{
+  box-shadow: 1px 1px 1px var(--cor5);
+}
+
+input:hover{
+  box-shadow: 1px 1px 1px var(--cor5);
+}
+
 #enviar{
   border-radius: 8px;
   color: green;
@@ -141,7 +166,7 @@ ul{
 }
 
 .footer{
-  position: bottom;
+  position: fixed;
   bottom: 0;
   max-width: 100%;
   width: 1400px;
@@ -149,7 +174,7 @@ ul{
   background-color:var(--cor2);
 }
 
-.footerindex{
+/* .footerindex{
   position: fixed;
   max-width: 90%;
-}
+} */
