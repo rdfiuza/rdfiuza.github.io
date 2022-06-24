@@ -22,6 +22,10 @@ function clicked(num){
     doc.setAttribute("id", "elementoimagem")
     frenteElement.style.visibility = "visible"
     frenteElement.appendChild(img)
+    frenteElement.style.position = "absolute";
+    frenteElement.style.margin = "15% 15%"
+    frenteElement.style.top = "-100px"
+    frenteElement.style.marginTop = "150px"
     $(function(){
       $(main).detach();
     });
